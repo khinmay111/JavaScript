@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery animations</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- put your Google font link here -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Javascript examples</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section popup-demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Open a popup</h2>
+                    <div class="button popup-open">Open me</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="popup-contents">
+            <h2>It's a Popup</h2>
+            <form>
+                <div class="input">
+                    <input type="text" required>
+                    <label>Email</label>
+                </div>
+                <input type="submit" value="Tell me more" class="button">
+            </form>
+            <svg class="popup-close" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22.2C17.6333 22.2 22.2 17.6333 22.2 12C22.2 6.3667 17.6333 1.8 12 1.8C6.3667 1.8 1.8 6.3667 1.8 12C1.8 17.6333 6.3667 22.2 12 22.2ZM12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#272727"/>
+                    <path d="M18 7.20857L16.7914 6L12 10.7914L7.20857 6L6 7.20857L10.7914 12L6 16.7914L7.20857 18L12 13.2086L16.7914 18L18 16.7914L13.2086 12L18 7.20857Z" fill="#272727"/>
+                </g>
+            </svg>            
+        </div>
+    </div>
+    <div class="section animate-jiggle-demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Jiggle</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <h3>Jiggle now</h3>
+                    <p class="large">When you scroll to this section the box will do a little jiggle and then stop.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section fade-in-demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Fade in</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <h3>This whole section fades in</h3>
+                    <p class="large">When you scroll to this section the whole thing will fade in.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section rotate-in-demo">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Animate me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <h3>Rotate now</h3>
+                    <p class="large">When you scroll to this section it will animate in by rotating in from the right with a transparency and then stop.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section basic-reveal">
+        <h2>Watch me reveal</h2>
+        <div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/myscripts.js"></script>
+</body>
+
+</html>
